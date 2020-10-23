@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/grybentsov/springcloud-config.git
+          search-paths: springcloud-config/spring-2
+          clone-on-start: true
+  application:
+    name: config_server
+
+logging:
+  level:
+    org.springframework.cloud: DEBUG

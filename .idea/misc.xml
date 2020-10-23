@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/my-feign-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudconfig/pom.xml" />
       </list>
     </option>
   </component>

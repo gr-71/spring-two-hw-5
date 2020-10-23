@@ -11,10 +11,12 @@
         <module name="eureka-server" />
         <module name="my-shop" />
         <module name="zuul-proxy-server" />
+        <module name="cloudconfig" />
         <module name="my-feign-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloudconfig" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="feign-client" target="1.5" />
       <module name="my-feign-client" target="1.8" />
@@ -25,6 +27,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloudconfig" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="my-feign-client" options="-parameters" />
       <module name="my-shop" options="-parameters" />
