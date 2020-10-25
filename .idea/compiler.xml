@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-client" />
+        <module name="eureka-server" />
+        <module name="my-shop" />
+        <module name="zuul-proxy-server" />
+        <module name="cloudconfig" />
+        <module name="my-feign-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudconfig" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign-client" target="1.5" />
+      <module name="my-feign-client" target="1.8" />
+      <module name="my-shop" target="1.8" />
+      <module name="zuul-proxy-server" target="1.8" />
+      <module name="zuul-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloudconfig" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="my-feign-client" options="-parameters" />
+      <module name="my-shop" options="-parameters" />
+      <module name="zuul-proxy-server" options="-parameters" />
+    </option>
+  </component>
+</project>

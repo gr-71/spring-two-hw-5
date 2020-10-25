@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloudconfig/cloudconfig.iml" filepath="$PROJECT_DIR$/cloudconfig/cloudconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-client/feign-client.iml" filepath="$PROJECT_DIR$/feign-client/feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-feign-client/my-feign-client.iml" filepath="$PROJECT_DIR$/my-feign-client/my-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/my-internet-shop.iml" filepath="$PROJECT_DIR$/.idea/my-internet-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-shop/my-shop.iml" filepath="$PROJECT_DIR$/my-shop/my-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-proxy-server/zuul-proxy-server.iml" filepath="$PROJECT_DIR$/zuul-proxy-server/zuul-proxy-server.iml" />
+    </modules>
+  </component>
+</project>
